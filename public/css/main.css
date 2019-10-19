@@ -24,6 +24,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
+#brand-logo {
+  border-radius: 50%;
+}
+
 .content > div > h2 {
   font-size: 2em;
 }
