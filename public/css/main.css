@@ -8,6 +8,11 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+/*************************************************************************************
+ *
+ * Copy and customize these attributes
+ *
+ */
 .content {
   background-color: #eb2b36;
   color: #5a01a7;
@@ -26,6 +31,8 @@ body {
 
 #brand-logo {
   border-radius: 50%;
+  height: 250px;
+  width: 250px;
 }
 
 .content > div > h2 {
@@ -35,3 +42,36 @@ body {
 .content > div > h3 {
   color: white;
 }
+/*************************************************************************************/
+
+/* Add your code below */
+.arantebw-gmx {
+  background-color: blue;
+  color: yellow;
+  height: 100vh;
+  position: relative;
+}
+
+.arantebw-gmx > div {
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#arantebw-gmx-logo {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.arantebw-gmx > div > h2 {
+  font-size: 2em;
+}
+
+.arantebw-gmx > div > h3 {
+  color: white;
+}
+/* Add your code above */
